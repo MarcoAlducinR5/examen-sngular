@@ -19,7 +19,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Como paso previo se debera clonar el repositorio en este [enlace](https://github.com/MarcoAlducinR5/examen-sngular "enlace"), acto seguido debera descargar todas las dependencias usando:
+
+```bash
+npm install
+```
+
+Next, run the development server:
 
 ```bash
 npm run dev
