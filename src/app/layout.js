@@ -1,13 +1,10 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Quantico } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const quanticoRegular = Quantico({
+  variable: "--font-quantico-regular",
+  weight: "400",
+  style: "normal",
   subsets: ["latin"],
 });
 
@@ -18,9 +15,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${quanticoRegular.variable} antialiased h-full`}
       >
         {children}
       </body>
