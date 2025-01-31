@@ -1,3 +1,20 @@
+# Prueba tecnica
+### Obtencion de la serie de un dato *n*
+
+Esta es una prueba tecnica que realice para aplicar en la empresa SNGULAR. Consiste en lo siguiente:
+
+Dadas las siguientes series númericas:
+
+[Número triangular](https://es.wikipedia.org/wiki/Número_triangular "Número triangular")
+[Sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesión_de_Fibonacci "Sucesión de Fibonacci")
+[Número primo](https://es.wikipedia.org/wiki/Número_primo "Número primo")
+
+Desarrollar una clase con un método que entregue el término n de la serie:
+
+serie(n) = 4 primo(n) - triangular(n-1) / fibonacci(n+2)
+
+### Consideraciones Tecnicas
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
